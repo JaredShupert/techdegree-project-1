@@ -21,6 +21,9 @@ a:hover {
   color: #6633ff;
 }
 
+h2 {
+  font-size: 2em;
+}
 /* Section Styles */
 
 .main-nav {
@@ -57,7 +60,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/background.jpeg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
