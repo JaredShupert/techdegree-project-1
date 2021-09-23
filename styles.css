@@ -24,6 +24,28 @@ a:hover {
 h2 {
   font-size: 2em;
 }
+
+form {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+
+form input {
+  border-radius: 6px;
+}
+
+form textarea {
+  margin-top: 20px;
+  display: block;
+  height: 200px;
+  width: 400px;
+  border-radius: 6px;
+}
 /* Section Styles */
 
 .main-nav {
@@ -58,6 +80,12 @@ h2 {
   color: white
 }
 
+.hobbies img {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+
 header {
   text-align: center;
   background: url('images/background.jpeg') no-repeat top center ;
@@ -72,13 +100,19 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+ 
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -102,7 +136,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #89CFF0;
 }
 
 ul.skills {
